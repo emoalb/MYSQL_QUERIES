@@ -42,8 +42,8 @@ INSERT INTO departments (name) VALUES('Marketing');
 INSERT INTO departments (name) VALUES('Software Development');
 INSERT INTO departments (name) VALUES('Quality Assurance');
 
-INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Ivan','Ivanov', 'Ivanov', '.NET Developer', 'Software Development', '01/02/2013',3500.00);
-INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Petar','Petrov', 'Petrov', 'Senior Engineer', 'Engineering', '02/03/2004',4000.00);
-INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Maria','Petrova', 'Ivanova', 'Intern', 'Quality Assurance', '28/08/2016',525.25);
-INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Georgi','Terziev', 'Ivanov', 'CEO', 'Sales', '09/12/2007',3000.00);
-INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Peter','Pan', 'Pan', 'Marketing', 'Quality Assurance', '28/08/2016',599.88);
+INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Ivan','Ivanov', 'Ivanov', '.NET Developer', 4, '2013-02-01',3500.00);
+INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Petar','Petrov', 'Petrov', 'Senior Engineer',1,  '2004-03-02',4000.00);
+INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Maria','Petrova', 'Ivanova', 'Intern', 5,  '2016-08-28',525.25);
+INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Georgi','Terziev', 'Ivanov', 'CEO', 2, '2007-12-09',3000.00);
+INSERT INTO employees (first_name, middle_name, last_name, job_title, department_id, hire_date, salary) VALUES ('Peter','Pan', 'Pan', 'Intern', 3,  '2016-08-28',599.88);
